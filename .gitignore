@@ -1,0 +1,17 @@
+# Visual Studio and build outputs
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.pubxml.user
+artifacts/
+TestResults/
+
+# Keep proprietary game data and extracted projects out of the repository
+*.cct
+*.cxt
+*.cst
+*.dir
+*-project/
+*.cct.report.json
