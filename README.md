@@ -2,7 +2,7 @@
 
 **Made by Tiger Fury**
 
-A Windows desktop utility for extracting and rebuilding the little-endian XFIR/FGDC compressed cast format inspected in **CSI: Dark Motives**. Rewritten in C#, with the Tiger Fury app icon. This is an experimental cast editor, not a universal Director decompiler.
+A Windows desktop utility for extracting and rebuilding the little-endian XFIR/FGDC compressed cast format (.cct) inspected in **CSI: Dark Motives**. Version1 was originally written in Python, Version 2 is Rewritten in C#. This is an experimental cast (.cct) editor, not a universal Director decompiler.
 
 ![CSI Cast Tool interface](docs/screenshot.png)
 
@@ -72,9 +72,5 @@ The harness generates its own small synthetic cast with a JPEG, tests round trip
 ## Validation scope
 
 Local checks passed with synthetic fixtures and an unchanged round trip of the inspected Dark Motives Case 2 cast: 1,728 decoded resource payloads and 83 exported JPEG-backed PNGs. The previous Python-built 800×500 single-image replacement was user-tested in-game. C#-built game replacements still need user in-game testing; this port does not claim every CSI cast or game is supported.
-
-## GitHub
-
-Upload the **contents of this source folder**, including `.github`, `.gitignore`, `.gitattributes`, source projects, icon, tests and documentation. Do not add game files or extraction projects. `bin`, `obj`, release artifacts and game casts are excluded by `.gitignore`. The supplied source ZIP excludes local build outputs and game data.
 
 MIT license, copyright Tiger Fury. See LICENSE and THIRD-PARTY-NOTICES.md.
