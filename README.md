@@ -2,7 +2,7 @@
 
 **Made by Tiger Fury**
 
-A Windows desktop utility for extracting and rebuilding the little-endian XFIR/FGDC compressed cast format (.cct) inspected in **CSI: Dark Motives**. Version1 was originally written in Python, Version 2 is Rewritten in C#. This is an experimental cast (.cct) editor, not a universal Director decompiler.
+A Windows desktop utility for extracting and rebuilding the little-endian XFIR/FGDC compressed cast format `.cct` inspected in **CSI: Dark Motives**. Version1 was originally written in Python, Version 2 is Rewritten in C#. This is an experimental cast `.cct` editor, not a universal Director decompiler.
 
 ![CSI Cast Tool interface](docs/screenshot.png)
 
